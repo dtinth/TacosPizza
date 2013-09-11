@@ -2,9 +2,15 @@ package tacospizza;
 
 import java.util.Scanner;
 
+import javax.swing.JFrame;
+
 public class Main {
 	
 	public static void main(String[] args) {
+		
+		JFrame frame = new JFrame("This is my User Interface");
+		frame.setSize(400, 400);
+		frame.setVisible(true);
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Welcome to my softspec class eieieieieiei!!");
