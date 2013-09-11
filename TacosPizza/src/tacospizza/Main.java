@@ -18,7 +18,7 @@ public class Main {
 		System.out.print("Enter B: ");
 		b = scanner.nextInt();
 		
-		System.out.println("A + B = " + (a - b));
+		System.out.println("A + B = " + (a + b));
 		scanner.close();
 		
 	}
